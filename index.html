@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno Revolution</title>
+    <link rel="stylesheet" href="Page web you.css">
+    <script src="Page web insta.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Techno Revolution</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-link" data-key="about">About</a></li>
+                <li><a href="#gallery" class="nav-link" data-key="gallery">Gallery</a></li>
+                <li><a href="#contact" class="nav-link" data-key="contact">Contact</a></li>
+                <li>
+                    <label for="language" class="nav-link" data-key="language">Language:</label>
+                    <select id="language">
+                        <option value="en">English</option>
+                        <option value="ar">العربية</option>
+                        <option value="fr">Français</option>
+                        <option value="de">Deutsch</option>
+                        <option value="ja">日本語</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2 data-key="aboutTitle">About Us</h2>
+        <p data-key="aboutText">Dive into the world of technology, where innovation meets creativity! Join us as we explore the latest advancements, trends, and tools that are shaping our future and enhancing our everyday lives.</p>
+    </section>
+
+    <section id="gallery">
+        <h2 data-key="galleryTitle">Gallery</h2>
+        <div class="photo-grid">
+            <div class="photo">
+                <img src="https://1368educadis-1278.kxcdn.com/wp-content/uploads/2020/09/robot.jpg.webp" alt="Robot" width="120" height="90">
+                <p data-key="robot">Robot</p>
+            </div>
+            <div class="photo">
+                <img src="https://effvision.com/wp-content/uploads/2024/06/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg" alt="AI Technology" width="120" height="90">
+                <p data-key="aiTechnology">AI Technology</p>
+            </div>
+            <div class="photo">
+                <img src="https://www.cegelem.fr/wp-content/uploads/2020/09/Le-top-10-des-langages-de-programmation-a-apprendre-en-2020-2021.jpg" alt="Tablet" width="120" height="90">
+                <p data-key="tablet">Tablet</p>
+            </div>
+            <div class="photo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH2apg4YDRQAREg3OkgAQM9wNwOOyK0MrHfQ&s" alt="Latest Tech" width="120" height="90">
+                <p data-key="latestTech">Latest development of technology</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 data-key="contactTitle">Contact Us</h2>
+        <p data-key="contactText">If you have any questions, feel free to reach out!</p>
+        <form>
+            <label for="name" data-key="nameLabel">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email" data-key="emailLabel">Email:</label>
+            <input type="email" id="email" required>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Techno Revolution. All rights reserved.</p>
+    </footer>
+</body>
+</html>
