@@ -157,6 +157,34 @@ form input[type="submit"]:hover {
     transform: scale(1.05);
 }
 
+/* WhatsApp and Instagram Icon Styles */
+.contact-icons {
+    margin-top: 20px; /* Space between text and icons */
+    display: flex; /* Align icons horizontally */
+    justify-content: center; /* Center the icons */
+}
+
+.contact-icons a {
+    color: white; /* Icon color */
+    font-size: 2em; /* Icon size */
+    margin-right: 15px; /* Space between icons */
+    transition: transform 0.3s, color 0.3s; /* Hover effects */
+}
+
+.contact-icons a:hover {
+    transform: scale(1.2); /* Enlarge icon on hover */
+}
+
+/* WhatsApp icon hover effect */
+.contact-icons .whatsapp-icon:hover {
+    color: #25D366; /* WhatsApp green color */
+}
+
+/* Instagram icon hover effect */
+.contact-icons .instagram-icon:hover {
+    color: #E1306C; /* Instagram pink color */
+}
+
 /* Main body and header styles */
 body {
     font-family: 'Poppins', sans-serif;
